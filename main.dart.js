@@ -46904,9 +46904,9 @@ this.d=H.d([new K.dq("Search_Invocador","Flutter app for showing League of Legen
 N:function(a,b){var s,r,q,p,o,n,m,l,k,j,i=null,h=b.a1(t.w).f.a.a,g=h<650
 if(g&&h>=550)s=3.5
 else if(h<550&&h>=450)s=3
-else{r=h<450
-if(r&&h>=380)s=2
-else s=r?1:2}r=h>700?700:h
+else if(h<450&&h>320)s=2
+else s=h<=320?1.5:2
+r=h>700?700:h
 q=L.k3("Lucas Maia",A.f8(i,i,i,i,i,i,i,i,i,i,i,36,i,i,i,i,!0,i,i,i,i,i,i))
 q=Q.WX(L.k3("Flutter developer",A.f8(i,i,i,i,i,i,i,i,i,i,i,18,i,i,i,i,!0,i,i,i,i,i,i)),q)
 p=Z.Ze()
