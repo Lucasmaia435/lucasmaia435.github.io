@@ -46899,7 +46899,8 @@ this.bz()
 this.d=H.d([new K.dq("Search_Invocador","Flutter app for showing League of Legends' players data.","https://github.com/Lucasmaia435/Search_Invocador",s),new K.dq("API-Riot-Data","API made in Deno(TypeScript) for request summoners (League of Legends' player) data from Riot's dev API.","https://github.com/Lucasmaia435/API-Riot-Data",r),new K.dq("Deno-API","Simple API created using Deno.","https://github.com/Lucasmaia435/Deno-API",r),new K.dq("Deno-cli","Command Line Interface (CLI) to create and manage your deno workspace.","https://github.com/Lucasmaia435/deno-cli",q),new K.dq("Nubank_clone","Clone do aplicativo do Nubank.","https://github.com/Lucasmaia435/Nubank_clone",s),new K.dq("Sigaa-clone","O Sigaa-clone \xe9 uma c\xf3pia do aplicativo m\xf3vel do Sigaa-UFRN feito em Flutter.","https://github.com/Lucasmaia435/Sigaa-clone",s),new K.dq("RN-FAB","Floating Reaction Button (FAB) component for React Native.","https://github.com/Lucasmaia435/RN-Floating-Action-Button",r),new K.dq("Shortcut-Manager","App em Electron, para criar atalhos globais no desktop.","https://github.com/Lucasmaia435/Shortcut-Manager",q)],t.Ey)},
 P:function(a,b){var s,r,q,p,o,n,m,l,k,j,i=null,h=b.a2(t.w).f.a.a,g=h<650
 if(g&&h>=550)s=3.5
-else s=h<550?3.5:2
+else if(h<550&&h>=450)s=3.5
+else s=2
 r=h>700?700:h
 q=L.k2("Lucas Maia",A.f8(i,i,i,i,i,i,i,i,i,i,i,36,i,i,i,i,!0,i,i,i,i,i,i))
 q=Q.WW(L.k2("Flutter developer",A.f8(i,i,i,i,i,i,i,i,i,i,i,18,i,i,i,i,!0,i,i,i,i,i,i)),q)
